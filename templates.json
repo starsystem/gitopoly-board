@@ -1,0 +1,114 @@
+{
+	"queque": [
+		{
+			"type": "corner",
+			"title": [
+				"release",
+				"milestone",
+				"bug",
+				"fatal error"
+			]
+		},
+		{
+			"type": "property"
+		},
+		{
+			"type": "property"
+		},
+		{
+			"type": "card",
+			"title": [
+				"issue",
+				"pull request"
+			]
+		},
+		{
+			"type": "property"
+		},
+		{
+			"type": "software",
+			"title": [
+				"built failure",
+				"package"
+			]
+		},
+		{
+			"type": "property"
+		},
+		{
+			"type": "card",
+			"title": [
+				"issue",
+				"pull request"
+			]
+		},
+		{
+			"type": "property"
+		},
+		{
+			"type": "property"
+		},
+		{
+			"type": "hardware",
+			"title": [
+				"data base",
+				"server"
+			]
+		}
+	],
+	"space": [
+		{
+			"corner": [
+				"release",
+				"milestone",
+				"bug",
+				"fatal error"
+			]
+		},
+		{
+			"card": [
+				"issue",
+				"pull request"
+			]
+		},
+		{
+			"type": "software",
+			"name": [
+				"package",
+				"build failure"
+			],
+			"rent": [
+				25,
+				[ 75, 200 ]
+			],
+			"maintain": 200,
+			"unmaintain": 100
+		},
+		{
+			"type": "hardware",
+			"name": [
+				"server",
+				"database"
+			],
+			"rent": [
+				"8d6",
+				"20d6"
+			],
+			"maintain": 150,
+			"unmaintain": 75
+		}
+	],
+	"property": {
+		"name": "repository name",
+		"rent": [ 3, 20, 40 ],
+		"maintain": [ 60, 200, 400 ],
+		"unmaintain": [ 30, 100, 200 ],
+		"branch": [
+			[ 15, 80, 200 ],
+			[ 45, 250, 450 ],
+			[ 135, 650, 1250 ],
+			[ 240, 800, 1500 ]
+		],
+		"wiki": [ 500, 1000, 1500 ]
+	}
+}

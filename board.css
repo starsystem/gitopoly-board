@@ -1,0 +1,54 @@
+#tile {
+	font-family: sans-serif;
+	display: block;
+	background-color: #F0FFF0;
+	/*white-space: nowrap;*/
+}
+.spaceDiv {
+	background-color: white;
+	display: inline-table;
+	min-width: 12em;
+	min-height: 20em;
+	margin: 1em 0;
+	font-size: small;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	border-width: 2px 0 2px 2px;
+	border-color: #000;
+	border-style: solid;
+}
+.spaceDiv div {
+	padding: 1em 0;
+}
+.spaceDiv:last-child {
+	border-right-width: 2px;
+}
+.chance {
+	background-color: orange;
+}
+.corner {
+	background-color: black;
+	color: white;
+}
+header {
+	padding: 1em;
+}
+header.HTML {
+	background-color: #e44b23;
+}
+header.JavaScript {
+	background-color: #f1e05a;
+}
+header.CSS {
+	background-color: #563d7c;
+	color: white;
+}
+header.Ruby {
+	background-color: #701516;
+	color: white;
+}
+header.PHP {
+	background-color: #4F5D95;
+	color: white;
+}
