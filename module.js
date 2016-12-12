@@ -14,7 +14,7 @@ var tile = function () {
 		return getRepos();
 	}
 	function getRepos () {
-		return fetch('http://api.github.com/users/' + username + '/repos?page=' + page).then( function (r) {
+		return fetch('https://api.github.com/users/' + username + '/repos?page=' + page).then( function (r) {
 			page = getNextPage(r.headers.get('Link'));
 			if(r.status === 200) return r.json();
 		}).then( function (j) {
